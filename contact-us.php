@@ -3,7 +3,7 @@
     include_once 'assets/includes/header.php';
 ?>
     <div class="contact">
-        <section class="container-fluid main-bg">
+        <section class="container-fluid main-bg clear-bg">
             <h1>CONTACT US</h1>
             <i>At Alemany Dental, it is our goal to provide you with the highest quality</i>
         </section>

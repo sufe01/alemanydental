@@ -105,15 +105,15 @@
                 <h4>YEARS OF EXPERIENCE</h4>
             </div>
             <div>
-                <span class="countNum" data-target="100"></span>
+                <span class="countNum" data-target="150"></span>
                 <h4>5-STAR YELP! REVIEWS</h4>
             </div>
             <div>
-                <span class="countNum" data-target="10000"></span>
+                <span class="countNum" data-target="1000"></span>
                 <h4>SMILING CLIENTS</h4>
             </div>
             <div>
-                <span class="countNum" data-target="10"></span>
+                <span class="countNum" data-target="35"></span>
                 <h4>MASTER CERTIFICATIONS</h4>
             </div>
         </div>

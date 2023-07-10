@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DENTAL HALLOWEEN TRICKS - Alemany Dental</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-</head>
-
-<body>
+<?php
+    include_once 'assets/includes/header.php';
+?>
     <div class="blog-p1">
-        <nav>
-            <!-- <div class="nav-items"></div> -->
-            <div class="nav-items">
-                <div class="logo">
-                    <img src="assets/images/AD_250_Light.png" alt="Logo-img">
-                </div>
-            </div>
-            <div class="nav-items">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
         <div class="container p-1">
             <div class="row">
                 <div class="col-8">
@@ -47,7 +22,7 @@
                         sweets in moderation. Here are some reminders and helpful hints to ensure you and your kids have
                         a healthy and fun Halloween:
                     </p>
-                    <div style="float: right; margin: 10px 20px;">
+                    <div class="smallImg" style="float: right; margin: 10px 20px;">
                         <img src="assets/images/deep-abfraction-notches.jpg" alt="">
                     </div>
                     <div>
@@ -101,6 +76,11 @@
                             <img src="assets/images/TMJ.jpg" alt="">
                             <h5>TMJ Pain? BOTOX, A Great Alternative To A Night Guard</h5>
                             <a href="">By admin / May 25, 2015</a>
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/mission-trip-to-panama.jpg" alt="">
+                            <h5>Mission Trip To Panama, A Great Place To Visit</h5>
+                            <a href="">By admin / August 15, 2013</a>
                         </div>
                     </div>
                 </div>
@@ -199,43 +179,7 @@
                 </form>
             </div>
         </div>
-        <footer>
-            <div class="row">
-                <div class="col-4">
-                    <p>At Alemany Dental, it is our goal to provide you with the highest quality dental care in the
-                        most
-                        welcoming and comfortable environment.
-                    </p>
-                    <a href=""><img src="assets/images/siteseal_gd_3_h_l_m.gif" alt=""></a>
-                </div>
-                <div class="col-4">
-                    <p><a href=""><i class="fa-solid fa-thumbtack"></i> 1655 Southgate Ave. Suite 100</a></p>
-                    <p><a href=""><i class="far fa-clock"></i> Mon - Tue 9AM-6PM; Wed-Sat 8AM-5PM</a></p>
-                    <p><a href=""><i class="fa-solid fa-envelope"></i> AlemanyDental@gmail.com</a></p>
-                    <p><a href=""><i class="fas fa-globe"></i> AlemanyDental.com</a></p>
-                    <div class="social">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fas fa-share-alt"></i></a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <p><a href="">June 25, 2015</a></p>
-                    <p><a href="">Abfractions - What Are They?</a></p>
-                    <p><a href=""><small>June 23, 2016</small></a></p>
-                    <p><a href="">Why You Need To Know If You’re Affected By Sleep Apnea</a></p>
-                    <a href=""><img src="assets/images/offline-981344073.png" alt=""></a>
-                </div>
-            </div>
-            <div class="copy">Powerd by <a href="">SUFE MEO</a></div>
-        </footer>
     </div>
-
-
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+    <?php
+    include_once 'assets/includes/footer.php';
+?>

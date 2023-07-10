@@ -55,12 +55,12 @@
     <div class="container-1" id="fullpage">
         <div class="section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section
                         style="background: url(assets/images/DRCHADLYEW_20200305_115811_2852.jpg) center; background-size: cover;z-index: -1; ">
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section class="ad-con">
                         <div style="width: 70%; margin: auto;">
                             <h3><span> ALEMANY DENTAL</span></h3>
@@ -80,7 +80,7 @@
 
         <div class="section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section class="d-flex flex-column justify-content-center align-items-center">
                         <h2 style="font-size: 24px; line-height: 36px; letter-spacing: 1px; width: 80%;">OUR ADVANTAGES
                         </h2>
@@ -123,7 +123,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
 
                     <section
                         style="background: url(assets/images/DRCHADLYEW_20200305_103215_2770.jpg) center; background-size: cover;">
@@ -136,11 +136,11 @@
         <div class="section">
 
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section style="background: url(assets/images/Dr.-Lyew-Edit.png) center; background-size: cover;">
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section class="ad-con"
                         style="text-align: center; background: #363636;color: #808285; padding-top: 6em;">
                         <div style="width: 75%; margin: auto;">
@@ -164,7 +164,7 @@
 
         <div class="section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section class="ad-con">
                         <div style="width: 75%; margin: auto;">
                             <h3><span>EXPERIENCE THE DIFFERENCE</span></h3>
@@ -178,7 +178,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section
                         style="background: url(assets/images/DRCHADLYEW_20200305_104329_2774.jpg) center; background-size: cover;">
                     </section>
@@ -188,12 +188,12 @@
 
         <div class="section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section
                         style="background: url(assets/images/eduardo-dutra-614571-unsplash-scaled.jpg) center; background-size: cover;">
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section class="ad-con">
                         <div class="single-item">
                             <div>
@@ -240,7 +240,7 @@
 
         <div class="section">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section
                         style="background: url(assets/images/split-slider-image-6.jpg) center; background-size: cover;">
                         <div style="height: 80%; width: 80%; margin: auto;" class="form">
@@ -256,7 +256,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-6 col-sm-12">
                     <section> <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.8745467131357!2d-122.47301678492444!3d37.67565552562933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7b8b67655e89%3A0x77df4619edabb467!2s1655+Southgate+Ave%2C+Daly+City%2C+CA+94015%2C+USA!5e0!3m2!1sen!2sca!4v1543252667724"
                             width="100%" height="731" frameborder="0" style="border: 0px; pointer-events: none;"
@@ -264,7 +264,6 @@
                     </section>
                 </div>
             </div>
-
         </div>
     </div>
 

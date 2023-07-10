@@ -75,26 +75,26 @@
             <div class="box">
                 <img src="assets/images/MH_sensitive_teeth.png" alt="">
                 <div class="content">
-                    <a href="">August 19, 2016 / Uncategorized / 0 Comments / 0 Likes</a>
+                    <a href="abfraction.php">August 19, 2016 / Uncategorized / 0 Comments / 0 Likes</a>
                     <h5>DENTAL MISSION TRIP TO PANAMA</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sit exercitationem, totam nostrum
                         numquam, pariatur minima fugit, quia error facere cupiditate eligendi asperiores saepe fuga
                         blanditiis harum cum. Fuga rem harum, quod id maiores reprehenderit molestias....
                     </p>
-                    <a href="">Read More</a><br>
+                    <a href="abfraction.php">Read More</a><br>
                     <small><a href="">By admin</a></small>
                 </div>
             </div>
             <div class="box">
                 <img src="assets/images/9587539_ml1-1.jpg" alt="">
                 <div class="content">
-                    <a href="">August 19, 2016 / Uncategorized / 0 Comments / 0 Likes</a>
+                    <a href="dental-halloween-tricks.php">August 19, 2016 / Uncategorized / 0 Comments / 0 Likes</a>
                     <h5>DENTAL MISSION TRIP TO PANAMA</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sit exercitationem, totam nostrum
                         numquam, pariatur minima fugit, quia error facere cupiditate eligendi asperiores saepe fuga
                         blanditiis harum cum. Fuga rem harum, quod id maiores reprehenderit molestias....
                     </p>
-                    <a href="">Read More</a><br>
+                    <a href="dental-halloween-tricks.php">Read More</a><br>
                     <small><a href="">By admin</a></small>
                 </div>
             </div>

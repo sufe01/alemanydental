@@ -2,8 +2,8 @@
 <?php
     include_once 'assets/includes/header.php';
 ?>
-    <div class="be-a-patient">
-        <section class="container-fluid main-bg">
+    <div class="be-a-patient on-pay">
+        <section class="container-fluid main-bg clear-bg ">
             <h1>ONLINE PAYMENT</h1>
         </section>
         <div class="container p-5 d-flex align-items-center justify-content-center flex-column gap-3"

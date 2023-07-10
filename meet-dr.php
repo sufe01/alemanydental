@@ -61,11 +61,11 @@
                 <h4>5-STAR YELP! REVIEWS</h4>
             </div>
             <div>
-                <span class="countNum" data-target="10000"></span>
+                <span class="countNum" data-target="1000"></span>
                 <h4>SMILING CLIENTS</h4>
             </div>
             <div>
-                <span class="countNum" data-target="10"></span>
+                <span class="countNum" data-target="23"></span>
                 <h4>MASTER CERTIFICATIONS</h4>
             </div>
         </div>

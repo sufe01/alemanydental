@@ -4,3 +4,49 @@ Ending Date & time:
 Fonts: Poppins & Noto Serif
 
 Working Dates : 2
+
+
+--------------
+.single-item .slick-next {
+    right: 0;
+    mix-blend-mode: difference;
+    width: 130px;
+    text-align: left;
+}
+
+.single-item .slick-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f061";
+}
+
+.single-item .slick-prev::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f060";
+}
+
+.single-item .slick-prev {
+    left: 0;
+    mix-blend-mode: difference;
+    width: 130px;
+    text-align: right;
+}
+
+.slick-dots li button:before {
+    content: '' !important;
+    border: 2px solid #000;
+    height: 13px !important;
+    width: 13px !important;
+    border-radius: 10px;
+}
+
+.slick-dots li button:hover:before {
+    border-color: #0000;
+    background: #000;
+}
+
+.slick-dots li.slick-active button:before {
+    background: #000;
+    border-color: #000;
+}

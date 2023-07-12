@@ -1,11 +1,3 @@
-$('.single-item').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: true,
-});
-
 // _____________________________Increment Counter_____________
 
 const counters = document.querySelectorAll('.countNum');
@@ -87,10 +79,10 @@ function wisdom() {
 }
 
 // _______________________________________________
-$(document).ready(function () {
-    $('#fullpage').fullpage({
-        autoScrolling: true,
-        scrollHorizontally: true,
-        navigation: true
-    });
-})
+// $(document).ready(function () {
+//     $('#fullpage').fullpage({
+//         autoScrolling: true,
+//         scrollHorizontally: true,
+//         navigation: true
+//     });
+// })

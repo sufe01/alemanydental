@@ -51,7 +51,105 @@ body {
     position: relative;
 }
 
+.responsive {
+    display: none;
+}
+
 /* -------Navbar-------- */
+.indexBody nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 30px;
+}
+
+.indexBody nav .toggle {
+    position: relative;
+    left: 0;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border-top: 4px solid #777;
+    z-index: 1000;
+}
+
+.indexBody ul.navlink {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.toggle.active~ul.navlink {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.indexBody nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 1.8;
+    transition: 0.4s;
+}
+
+.indexBody nav ul li a:hover {
+    color: #25ABD1;
+}
+
+
+
+.toggle.active {
+    border-top: none !important;
+}
+
+.toggle::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #777;
+    transform: translateY(-6px);
+    transition: 0.5s;
+}
+
+.toggle::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #777;
+    transform: translateY(6px);
+    transition: 0.5s;
+}
+
+.toggle.active::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.toggle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+}
+
+/* /////////////// */
 .navbar-toggler {
     padding: 0 !important;
 }
@@ -170,6 +268,154 @@ h3 span {
     color: #383838;
 }
 
+/* ---------------Index Style------------------ */
+body {
+    height: 100vh;
+}
+
+.slider-contain {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slide {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.left-slide>div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    padding: 0 5rem;
+}
+
+.left-slide>div h2,
+.right-slide>div h2 {
+    font-family: s-bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.left-slide>div p,
+.right-slide>div p {
+    font-family: f-light;
+    font-size: 14px;
+    line-height: 26px;
+    color: #808285;
+    padding: 1rem 0;
+}
+
+.left-slide a {
+    text-decoration: none;
+    /* color: #25ABD1; */
+}
+
+.right-slide .mission p {
+    font-family: noto;
+    font-style: italic;
+}
+
+.left-slide form {
+    color: #808285;
+}
+
+.left-slide form h2 {
+    color: #000;
+}
+
+.left-slide form p {
+    padding: 0;
+}
+
+.left-slide form .fas {
+    color: #25ABD1;
+    margin-right: 10px;
+}
+
+.left-slide form input,
+.left-slide form textarea {
+    background: transparent;
+    border: 0.3px solid #a7a9ac;
+    margin: 10px 0;
+    padding: 15px;
+    width: max-content;
+    color: #999;
+    resize: none;
+    outline: none;
+    width: 100%;
+    font-weight: 100;
+}
+
+.left-slide form textarea {
+    width: 100%;
+}
+
+.right-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.right-slide>div {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+button {
+    display: none;
+}
+
+/* ---------------------- */
+.slider-contain .action-buttons .dots-container {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-contain .action-buttons .dots-container .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.slider-contain .action-buttons .dots-container .dot.active {
+    background-color: #555;
+}
+
+/* --------------------------------- */
 .ad-con {
     display: flex;
     flex-direction: column;
@@ -278,123 +524,8 @@ h3 span {
     }
 }
 
-.single-item div {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.single-item div h2 span {
-    font-family: f-reg;
-    font-weight: bolder;
-}
-
-.single-item div p {
-    letter-spacing: 0.5px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #a7a9ac;
-    line-height: 2;
-}
-
-.single-item div h6 {
-    font-style: normal;
-    font-family: f-reg;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.single-item div h6 span {
-    font-family: serif;
-}
-
-.single-item .slick-next {
-    right: 0;
-    mix-blend-mode: difference;
-    width: 130px;
-    text-align: left;
-}
-
-.single-item .slick-next::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f061";
-}
-
-.single-item .slick-prev::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    content: "\f060";
-}
-
-.single-item .slick-prev {
-    left: 0;
-    mix-blend-mode: difference;
-    width: 130px;
-    text-align: right;
-}
-
-.slick-dots li button:before {
-    content: '' !important;
-    border: 2px solid #000;
-    height: 13px !important;
-    width: 13px !important;
-    border-radius: 10px;
-}
-
-.slick-dots li button:hover:before {
-    border-color: #0000;
-    background: #000;
-}
-
-.slick-dots li.slick-active button:before {
-    background: #000;
-    border-color: #000;
-}
-
 .container-1 .row {
     --bs-gutter-x: 0 !important;
-}
-
-.form {
-    padding: 80px 0 30px;
-}
-
-.form h3 span {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.form p {
-    font-size: 14px;
-    opacity: 0.9;
-    letter-spacing: 1px;
-    font-weight: 100;
-}
-
-.form .fas {
-    color: #25ABD1;
-    margin-right: 10px;
-}
-
-.form input,
-.form textarea {
-    width: 100%;
-    margin: 10px 0;
-    padding: 15px;
-    background: transparent;
-    border: 0.5px solid #999;
-    color: #999 !important;
-    outline: none;
-    font-weight: 100;
-}
-
-.form textarea {
-    resize: none;
-}
-
-.form a:hover {
-    background: #222;
 }
 
 /* _____________________________Meet docter_______________________ */
@@ -1097,5 +1228,62 @@ footer img {
     footer .col-4 {
         padding: 30px !important;
         border-bottom: 1px solid #999;
+    }
+}
+
+/* _______Media-4 */
+@media(max-width: 1000px) {
+    .indexBody {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .responsive .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .responsive .col-6 {
+        width: 100%;
+        padding: 0;
+        overflow-x: hidden !important;
+    }
+
+    .responsive section {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .responsive .col-6 iframe {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .skillsBox .bar .barUp {
+        animation-duration: 1.5s;
+    }
+
+    .navLinks li {
+        border-bottom: 1px solid #808285;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navLinks li a {
+        color: #808285;
+        font-size: 0.9em;
     }
 }

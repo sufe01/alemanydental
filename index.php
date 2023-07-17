@@ -7,8 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/images/ficon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <title>Vertical double slider</title>
+    <style>
+        .responsive .form input,
+        .responsive .form textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #808285;
+            outline: none;
+            background: transparent;
+            margin: 5px 0;
+            resize: none;
+        }
+
+        .slick-dots li button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: transparent;
+        }
+    </style>
 </head>
 
 <body>
@@ -322,7 +351,7 @@
                     </section>
                 </div>
                 <div class="col-6">
-                    <section class="ad-con">
+                    <section class="ad-con" style="padding: 0 140px;">
                         <div class="single-item">
                             <div>
                                 <h2><span>5-STAR</span></h2>
@@ -393,9 +422,15 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/index_script.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <script>
-
+        $('.single-item').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            arrows: true,
+            slidesToShow: 1
+        });
     </script>
 </body>
 

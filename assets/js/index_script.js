@@ -65,6 +65,13 @@ const updateActiveDot = () => {
         }
     });
 };
+
+sliderContainer.addEventListener('wheel', (event) => {
+    event.preventDefault();
+    const direction = event.deltaY > 0 ? 'down' : 'up';
+    changeSlide(direction);
+});
+
 // -------------------
 let menuToggle = document.querySelector('.toggle');
 let navigation = document.querySelector('.navigation');
